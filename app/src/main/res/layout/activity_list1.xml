@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategorie 1"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+            <TableRow
+                android:layout_height="1px" android:background="#BDBDBD">z
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cena za kategorii:"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:id="@+id/priceCategori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="left"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="1px" android:background="#BDBDBD">z
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cena za kategorie celkem:"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="left"/>
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_height="1px" android:background="#BDBDBD">z
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name of product"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kč"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:background="#F0F7F7"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="trubka evo 20" />
+                <TextView
+                    android:id="@+id/priceProduct"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="31"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/min1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/productValue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/plus1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:text="+"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+
+
+            <TableRow
+                android:background="#F0F7F7"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="ppr koleno 20/90" />
+                <TextView
+                    android:id="@+id/priceProduct2"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/min2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/productValue2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/plus2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+
+                    android:gravity="center"
+                    />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:background="#F0F7F7"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="ppr koleno IA 20/90" />
+
+                <TextView
+                    android:id="@+id/priceProduct3"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/min3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/productValue3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/plus3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:background="#F0F7F7"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="ppr koleno 20/45" />
+
+                <TextView
+                    android:id="@+id/priceProduct4"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="9" />
+                <Button
+                    android:id="@+id/min4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/productValue4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/plus4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+
+                    android:gravity="center"
+                    />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:background="#F0F7F7"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="ppr koleno IA 20/45 " />
+
+                <TextView
+                    android:id="@+id/priceProduct5"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="18" />
+                <Button
+                    android:id="@+id/min5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="-"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/productValue5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/plus5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+
+                    android:gravity="center"
+                    />
+
+
+
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
+
