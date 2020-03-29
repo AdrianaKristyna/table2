@@ -20,26 +20,22 @@ import java.util.List;
 
 public class List1 extends AppCompatActivity implements View.OnClickListener {
 
-
     Button plus;
     Button minus;
     TextView productValue;
     TextView productPrice;
     TextView productCategori;
     public int count2;
-    final TextView productValue1 = findViewById(R.id.productValue1);
-
+    TextView productValue1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list1);
-
-
-
         final TextView priceCategori = findViewById(R.id.priceCategori);
         final TextView productValue = findViewById(R.id.productValue1);
         final TextView productPrice = findViewById(R.id.priceProduct);
+        productValue1 = findViewById(R.id.productValue1);
 
 //        SharedPreferences SharedPreff=getSharedPreferences("Group1",Context.MODE_PRIVATE);
 //        String value=SharedPreff.getString("noName","");
